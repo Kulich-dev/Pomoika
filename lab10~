@@ -1,0 +1,11 @@
+DELETE FROM book;
+
+CREATE TABLE book (name varchar(20), author varchar(20), issue varchar(20));
+INSERT INTO book(name varchar(20), author varchar(20), issue varchar(20)) 
+VALUES 
+('Voskreshenie deda', 'V. V. Vuk', 'Prosveshenie'),
+('Obama', 'V. A. Patrik', 'Lit_res')
+('EvanGendalf', 'S. F. Fridrih', 'ACT')
+('Vojak Stai Pelmeney','V. V. Vuk','Prosveshenie')
+('Neopoznany Letayushi Oleg', 'Prosveshenie')
+('Razocharolton', '')

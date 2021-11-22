@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/user/bg.png" added="2021-10-08T06:21:12Z" modified="2021-10-08T06:21:12Z" visited="2021-10-08T06:21:12Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2021-10-08T06:21:12Z" count="1"/>
+          <bookmark:application name="Image Viewer" exec="&apos;eog %u&apos;" modified="2021-10-08T06:21:12Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/func.sql" added="2021-10-15T09:11:20Z" modified="2021-10-15T09:16:21Z" visited="2021-10-15T09:11:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/sql"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-15T09:16:21Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/sql.sql" added="2021-10-15T09:39:37Z" modified="2021-10-15T10:42:54Z" visited="2021-10-15T09:39:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/sql"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-15T10:42:54Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/lua.sql" added="2021-10-15T12:21:57Z" modified="2021-10-15T12:31:53Z" visited="2021-10-15T12:21:58Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/sql"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-15T12:31:53Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/data.scv" added="2021-10-15T12:57:14Z" modified="2021-10-15T13:17:06Z" visited="2021-10-15T12:57:14Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-15T13:17:06Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/data.sql" added="2021-10-15T13:10:46Z" modified="2021-10-15T13:10:46Z" visited="2021-10-15T13:10:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-15T13:10:46Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/data.csv" added="2021-10-15T13:17:27Z" modified="2021-10-15T13:17:27Z" visited="2021-10-15T13:17:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-15T13:17:27Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/POSTGRES_REPO/.git/description" added="2021-10-15T15:56:57Z" modified="2021-10-15T15:56:57Z" visited="2021-10-15T15:56:57Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-15T15:56:57Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/.bashrc" added="2021-10-16T16:28:17Z" modified="2021-10-16T16:28:17Z" visited="2021-10-16T16:28:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-16T16:28:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/lab02-a.sql" added="2021-10-19T06:20:48Z" modified="2021-10-22T11:23:54Z" visited="2021-10-19T06:20:48Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/sql"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-22T11:23:54Z" count="49"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/lab02-b.sql" added="2021-10-19T06:32:55Z" modified="2021-10-22T14:01:18Z" visited="2021-10-19T06:32:56Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/sql"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-22T14:01:18Z" count="28"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/INS.SQL" added="2021-10-19T12:49:01Z" modified="2021-10-19T19:00:16Z" visited="2021-10-19T12:49:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/sql"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-19T19:00:16Z" count="21"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/long.sql" added="2021-10-19T19:01:21Z" modified="2021-10-22T11:57:20Z" visited="2021-10-19T19:01:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/sql"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-10-22T11:57:20Z" count="63"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/txt2csv.lua" added="2021-11-16T06:34:12Z" modified="2021-11-19T21:21:23Z" visited="2021-11-16T06:34:13Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-lua"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-19T21:21:23Z" count="40"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/new/aluminium.csv" added="2021-11-19T18:12:36Z" modified="2021-11-19T18:33:18Z" visited="2021-11-19T18:12:36Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/csv"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-19T18:33:18Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/again/aluminium.txt" added="2021-11-19T18:38:49Z" modified="2021-11-19T18:38:49Z" visited="2021-11-19T18:38:49Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-19T18:38:49Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/lab10" added="2021-11-21T18:13:23Z" modified="2021-11-22T16:03:38Z" visited="2021-11-21T18:13:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-22T16:03:38Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/user/lab10.sql" added="2021-11-22T16:04:39Z" modified="2021-11-22T17:33:58Z" visited="2021-11-22T16:04:39Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/sql"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2021-11-22T17:33:58Z" count="34"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

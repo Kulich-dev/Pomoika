@@ -1,0 +1,279 @@
+[ 67408.978] (--) Log file renamed from "/home/user/.local/share/xorg/Xorg.pid-3232.log" to "/home/user/.local/share/xorg/Xorg.0.log"
+[ 67408.980] 
+X.Org X Server 1.20.4
+X Protocol Version 11, Revision 0
+[ 67408.980] Build Operating System: Linux 4.19.0-12-amd64 x86_64 Debian
+[ 67408.980] Current Operating System: Linux Dubago 4.19.0-11-amd64 #1 SMP Debian 4.19.146-1 (2020-09-17) x86_64
+[ 67408.980] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-4.19.0-11-amd64 root=UUID=c2ff082e-69b5-44cf-8c9e-ad1edc0e09b2 ro quiet
+[ 67408.980] Build Date: 01 December 2020  05:59:57PM
+[ 67408.980] xorg-server 2:1.20.4-1+deb10u2 (https://www.debian.org/support) 
+[ 67408.980] Current version of pixman: 0.36.0
+[ 67408.980] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[ 67408.980] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[ 67408.981] (==) Log file: "/home/user/.local/share/xorg/Xorg.0.log", Time: Mon Nov 22 18:04:15 2021
+[ 67408.982] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[ 67408.983] (==) No Layout section.  Using the first Screen section.
+[ 67408.983] (==) No screen section available. Using defaults.
+[ 67408.983] (**) |-->Screen "Default Screen Section" (0)
+[ 67408.983] (**) |   |-->Monitor "<default monitor>"
+[ 67408.985] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[ 67408.985] (==) Automatically adding devices
+[ 67408.985] (==) Automatically enabling devices
+[ 67408.985] (==) Automatically adding GPU devices
+[ 67408.985] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[ 67408.985] (WW) The directory "/usr/share/fonts/X11/misc" does not exist.
+[ 67408.985] 	Entry deleted from font path.
+[ 67408.985] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[ 67408.985] 	Entry deleted from font path.
+[ 67408.985] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[ 67408.985] 	Entry deleted from font path.
+[ 67408.985] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[ 67408.985] 	Entry deleted from font path.
+[ 67408.985] (WW) The directory "/usr/share/fonts/X11/Type1" does not exist.
+[ 67408.985] 	Entry deleted from font path.
+[ 67408.985] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[ 67408.985] 	Entry deleted from font path.
+[ 67408.985] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[ 67408.985] 	Entry deleted from font path.
+[ 67408.985] (==) FontPath set to:
+	built-ins
+[ 67408.985] (==) ModulePath set to "/usr/lib/xorg/modules"
+[ 67408.985] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[ 67408.985] (II) Loader magic: 0x5599ea6d8e20
+[ 67408.985] (II) Module ABI versions:
+[ 67408.985] 	X.Org ANSI C Emulation: 0.4
+[ 67408.985] 	X.Org Video Driver: 24.0
+[ 67408.985] 	X.Org XInput driver : 24.1
+[ 67408.985] 	X.Org Server Extension : 10.0
+[ 67408.987] (++) using VT number 2
+
+[ 67408.989] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_321
+[ 67408.990] (II) xfree86: Adding drm device (/dev/dri/card0)
+[ 67408.991] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+[ 67408.993] (--) PCI:*(0@0:2:0) 1234:1111:1af4:1100 rev 2, Mem @ 0xfe000000/8388608, 0xfebf0000/4096, BIOS @ 0x????????/131072
+[ 67408.993] (II) LoadModule: "glx"
+[ 67408.995] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[ 67409.000] (II) Module glx: vendor="X.Org Foundation"
+[ 67409.000] 	compiled for 1.20.4, module version = 1.0.0
+[ 67409.000] 	ABI class: X.Org Server Extension, version 10.0
+[ 67409.000] (==) Matched modesetting as autoconfigured driver 0
+[ 67409.000] (==) Matched fbdev as autoconfigured driver 1
+[ 67409.000] (==) Matched vesa as autoconfigured driver 2
+[ 67409.000] (==) Assigned the driver to the xf86ConfigLayout
+[ 67409.001] (II) LoadModule: "modesetting"
+[ 67409.001] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[ 67409.004] (II) Module modesetting: vendor="X.Org Foundation"
+[ 67409.004] 	compiled for 1.20.4, module version = 1.20.4
+[ 67409.004] 	Module class: X.Org Video Driver
+[ 67409.004] 	ABI class: X.Org Video Driver, version 24.0
+[ 67409.004] (II) LoadModule: "fbdev"
+[ 67409.005] (WW) Warning, couldn't open module fbdev
+[ 67409.005] (EE) Failed to load module "fbdev" (module does not exist, 0)
+[ 67409.005] (II) LoadModule: "vesa"
+[ 67409.005] (WW) Warning, couldn't open module vesa
+[ 67409.005] (EE) Failed to load module "vesa" (module does not exist, 0)
+[ 67409.005] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[ 67409.005] (II) modeset(0): using drv /dev/dri/card0
+[ 67409.005] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[ 67409.006] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[ 67409.006] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[ 67409.006] (==) modeset(0): RGB weight 888
+[ 67409.006] (==) modeset(0): Default visual is TrueColor
+[ 67409.006] (II) Loading sub module "glamoregl"
+[ 67409.006] (II) LoadModule: "glamoregl"
+[ 67409.006] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[ 67409.013] (II) Module glamoregl: vendor="X.Org Foundation"
+[ 67409.013] 	compiled for 1.20.4, module version = 1.0.1
+[ 67409.013] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 67409.099] (II) modeset(0): Refusing to try glamor on llvmpipe
+[ 67409.104] (EE) modeset(0): glamor initialization failed
+[ 67409.104] (II) modeset(0): ShadowFB: preferred NO, enabled NO
+[ 67409.105] (II) modeset(0): Output Virtual-1 has no monitor section
+[ 67409.105] (II) modeset(0): EDID for output Virtual-1
+[ 67409.105] (II) modeset(0): Printing probed modes for output Virtual-1
+[ 67409.105] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz eP)
+[ 67409.105] (II) modeset(0): Modeline "1360x768"x60.0   85.50  1360 1424 1536 1792  768 771 777 795 +hsync +vsync (47.7 kHz e)
+[ 67409.105] (II) modeset(0): Modeline "1280x800"x59.8   83.50  1280 1352 1480 1680  800 803 809 831 -hsync +vsync (49.7 kHz e)
+[ 67409.105] (II) modeset(0): Modeline "1280x800"x59.9   71.00  1280 1328 1360 1440  800 803 809 823 +hsync -vsync (49.3 kHz e)
+[ 67409.105] (II) modeset(0): Modeline "1280x768"x59.9   79.50  1280 1344 1472 1664  768 771 778 798 -hsync +vsync (47.8 kHz e)
+[ 67409.105] (II) modeset(0): Modeline "1280x768"x60.0   68.25  1280 1328 1360 1440  768 771 778 790 +hsync -vsync (47.4 kHz e)
+[ 67409.105] (II) modeset(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[ 67409.105] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[ 67409.105] (II) modeset(0): Modeline "800x600"x56.2   36.00  800 824 896 1024  600 601 603 625 +hsync +vsync (35.2 kHz e)
+[ 67409.105] (II) modeset(0): Modeline "848x480"x60.0   33.75  848 864 976 1088  480 486 494 517 +hsync +vsync (31.0 kHz e)
+[ 67409.105] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[ 67409.105] (II) modeset(0): Output Virtual-1 connected
+[ 67409.105] (II) modeset(0): Using exact sizes for initial modes
+[ 67409.105] (II) modeset(0): Output Virtual-1 using initial mode 1024x768 +0+0
+[ 67409.105] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[ 67409.105] (==) modeset(0): DPI set to (96, 96)
+[ 67409.105] (II) Loading sub module "fb"
+[ 67409.105] (II) LoadModule: "fb"
+[ 67409.105] (II) Loading /usr/lib/xorg/modules/libfb.so
+[ 67409.108] (II) Module fb: vendor="X.Org Foundation"
+[ 67409.108] 	compiled for 1.20.4, module version = 1.0.0
+[ 67409.108] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[ 67409.111] (==) modeset(0): Backing store enabled
+[ 67409.111] (==) modeset(0): Silken mouse enabled
+[ 67409.113] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[ 67409.114] (==) modeset(0): DPMS enabled
+[ 67409.114] (II) Initializing extension Generic Event Extension
+[ 67409.114] (II) Initializing extension SHAPE
+[ 67409.114] (II) Initializing extension MIT-SHM
+[ 67409.114] (II) Initializing extension XInputExtension
+[ 67409.116] (II) Initializing extension XTEST
+[ 67409.116] (II) Initializing extension BIG-REQUESTS
+[ 67409.116] (II) Initializing extension SYNC
+[ 67409.116] (II) Initializing extension XKEYBOARD
+[ 67409.116] (II) Initializing extension XC-MISC
+[ 67409.116] (II) Initializing extension SECURITY
+[ 67409.116] (II) Initializing extension XFIXES
+[ 67409.117] (II) Initializing extension RENDER
+[ 67409.117] (II) Initializing extension RANDR
+[ 67409.117] (II) Initializing extension COMPOSITE
+[ 67409.117] (II) Initializing extension DAMAGE
+[ 67409.117] (II) Initializing extension MIT-SCREEN-SAVER
+[ 67409.117] (II) Initializing extension DOUBLE-BUFFER
+[ 67409.118] (II) Initializing extension RECORD
+[ 67409.118] (II) Initializing extension DPMS
+[ 67409.118] (II) Initializing extension Present
+[ 67409.118] (II) Initializing extension DRI3
+[ 67409.118] (II) Initializing extension X-Resource
+[ 67409.118] (II) Initializing extension XVideo
+[ 67409.118] (II) Initializing extension XVideo-MotionCompensation
+[ 67409.118] (II) Initializing extension SELinux
+[ 67409.118] (II) SELinux: Disabled on system
+[ 67409.118] (II) Initializing extension GLX
+[ 67409.118] (II) AIGLX: Screen 0 is not DRI2 capable
+[ 67409.124] (II) IGLX: Loaded and initialized swrast
+[ 67409.124] (II) GLX: Initialized DRISWRAST GL provider for screen 0
+[ 67409.124] (II) Initializing extension XFree86-VidModeExtension
+[ 67409.124] (II) Initializing extension XFree86-DGA
+[ 67409.125] (II) Initializing extension XFree86-DRI
+[ 67409.126] (II) Initializing extension DRI2
+[ 67409.126] (II) modeset(0): Damage tracking initialized
+[ 67409.126] (II) modeset(0): Setting screen physical size to 270 x 203
+[ 67409.163] (II) config/udev: Adding input device Power Button (/dev/input/event4)
+[ 67409.163] (**) Power Button: Applying InputClass "evdev keyboard catchall"
+[ 67409.163] (II) LoadModule: "evdev"
+[ 67409.163] (II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+[ 67409.165] (II) Module evdev: vendor="X.Org Foundation"
+[ 67409.166] 	compiled for 1.20.1, module version = 2.10.6
+[ 67409.166] 	Module class: X.Org XInput Driver
+[ 67409.166] 	ABI class: X.Org XInput driver, version 24.1
+[ 67409.166] (II) Using input driver 'evdev' for 'Power Button'
+[ 67409.167] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 20 paused 0
+[ 67409.167] (**) Power Button: always reports core events
+[ 67409.167] (**) evdev: Power Button: Device: "/dev/input/event4"
+[ 67409.167] (--) evdev: Power Button: Vendor 0 Product 0x1
+[ 67409.167] (--) evdev: Power Button: Found keys
+[ 67409.167] (II) evdev: Power Button: Configuring as keyboard
+[ 67409.167] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input5/event4"
+[ 67409.167] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[ 67409.167] (**) Option "xkb_rules" "evdev"
+[ 67409.167] (**) Option "xkb_model" "pc105"
+[ 67409.167] (**) Option "xkb_layout" "us"
+[ 67409.169] (II) config/udev: Adding input device QEMU QEMU USB Tablet (/dev/input/event5)
+[ 67409.169] (**) QEMU QEMU USB Tablet: Applying InputClass "evdev pointer catchall"
+[ 67409.169] (II) Using input driver 'evdev' for 'QEMU QEMU USB Tablet'
+[ 67409.230] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 21 paused 0
+[ 67409.230] (**) QEMU QEMU USB Tablet: always reports core events
+[ 67409.230] (**) evdev: QEMU QEMU USB Tablet: Device: "/dev/input/event5"
+[ 67409.230] (--) evdev: QEMU QEMU USB Tablet: Vendor 0x627 Product 0x1
+[ 67409.230] (--) evdev: QEMU QEMU USB Tablet: Found 3 mouse buttons
+[ 67409.230] (--) evdev: QEMU QEMU USB Tablet: Found scroll wheel(s)
+[ 67409.230] (--) evdev: QEMU QEMU USB Tablet: Found relative axes
+[ 67409.230] (--) evdev: QEMU QEMU USB Tablet: Found absolute axes
+[ 67409.230] (--) evdev: QEMU QEMU USB Tablet: Found x and y absolute axes
+[ 67409.230] (--) evdev: QEMU QEMU USB Tablet: Found absolute touchscreen
+[ 67409.230] (II) evdev: QEMU QEMU USB Tablet: Configuring as touchscreen
+[ 67409.230] (II) evdev: QEMU QEMU USB Tablet: Adding scrollwheel support
+[ 67409.230] (**) evdev: QEMU QEMU USB Tablet: YAxisMapping: buttons 4 and 5
+[ 67409.230] (**) evdev: QEMU QEMU USB Tablet: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[ 67409.230] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:04.0/usb1/1-1/1-1:1.0/0003:0627:0001.0001/input/input6/event5"
+[ 67409.230] (II) XINPUT: Adding extended input device "QEMU QEMU USB Tablet" (type: TOUCHSCREEN, id 7)
+[ 67409.230] (WW) evdev: QEMU QEMU USB Tablet: touchpads, tablets and touchscreens ignore relative axes.
+[ 67409.230] (II) evdev: QEMU QEMU USB Tablet: initialized for absolute axes.
+[ 67409.231] (**) QEMU QEMU USB Tablet: (accel) keeping acceleration scheme 1
+[ 67409.231] (**) QEMU QEMU USB Tablet: (accel) acceleration profile 0
+[ 67409.231] (**) QEMU QEMU USB Tablet: (accel) acceleration factor: 2.000
+[ 67409.231] (**) QEMU QEMU USB Tablet: (accel) acceleration threshold: 4
+[ 67409.232] (II) config/udev: Adding input device QEMU QEMU USB Tablet (/dev/input/js0)
+[ 67409.232] (II) No input driver specified, ignoring this device.
+[ 67409.232] (II) This device may have been added with another device file.
+[ 67409.233] (II) config/udev: Adding input device QEMU QEMU USB Tablet (/dev/input/mouse2)
+[ 67409.233] (II) No input driver specified, ignoring this device.
+[ 67409.233] (II) This device may have been added with another device file.
+[ 67409.234] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event0)
+[ 67409.234] (**) AT Translated Set 2 keyboard: Applying InputClass "evdev keyboard catchall"
+[ 67409.234] (II) Using input driver 'evdev' for 'AT Translated Set 2 keyboard'
+[ 67409.236] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 22 paused 0
+[ 67409.236] (**) AT Translated Set 2 keyboard: always reports core events
+[ 67409.236] (**) evdev: AT Translated Set 2 keyboard: Device: "/dev/input/event0"
+[ 67409.236] (--) evdev: AT Translated Set 2 keyboard: Vendor 0x1 Product 0x1
+[ 67409.236] (--) evdev: AT Translated Set 2 keyboard: Found keys
+[ 67409.236] (II) evdev: AT Translated Set 2 keyboard: Configuring as keyboard
+[ 67409.236] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input0/event0"
+[ 67409.236] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 8)
+[ 67409.236] (**) Option "xkb_rules" "evdev"
+[ 67409.236] (**) Option "xkb_model" "pc105"
+[ 67409.236] (**) Option "xkb_layout" "us"
+[ 67409.237] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event2)
+[ 67409.237] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[ 67409.238] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[ 67409.239] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 23 paused 0
+[ 67409.239] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[ 67409.239] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event2"
+[ 67409.239] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[ 67409.239] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[ 67409.239] (--) evdev: VirtualPS/2 VMware VMMouse: Found scroll wheel(s)
+[ 67409.239] (--) evdev: VirtualPS/2 VMware VMMouse: Found relative axes
+[ 67409.239] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y relative axes
+[ 67409.239] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as mouse
+[ 67409.239] (II) evdev: VirtualPS/2 VMware VMMouse: Adding scrollwheel support
+[ 67409.239] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[ 67409.239] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[ 67409.239] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input2/event2"
+[ 67409.239] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: MOUSE, id 9)
+[ 67409.239] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for relative axes.
+[ 67409.239] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[ 67409.239] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[ 67409.239] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[ 67409.240] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[ 67409.241] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse1)
+[ 67409.241] (II) No input driver specified, ignoring this device.
+[ 67409.241] (II) This device may have been added with another device file.
+[ 67409.242] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/event1)
+[ 67409.242] (**) VirtualPS/2 VMware VMMouse: Applying InputClass "evdev pointer catchall"
+[ 67409.242] (II) Using input driver 'evdev' for 'VirtualPS/2 VMware VMMouse'
+[ 67409.243] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 24 paused 0
+[ 67409.243] (**) VirtualPS/2 VMware VMMouse: always reports core events
+[ 67409.243] (**) evdev: VirtualPS/2 VMware VMMouse: Device: "/dev/input/event1"
+[ 67409.243] (--) evdev: VirtualPS/2 VMware VMMouse: Vendor 0x2 Product 0x13
+[ 67409.243] (--) evdev: VirtualPS/2 VMware VMMouse: Found 3 mouse buttons
+[ 67409.243] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute axes
+[ 67409.243] (--) evdev: VirtualPS/2 VMware VMMouse: Found x and y absolute axes
+[ 67409.243] (--) evdev: VirtualPS/2 VMware VMMouse: Found absolute touchscreen
+[ 67409.243] (II) evdev: VirtualPS/2 VMware VMMouse: Configuring as touchscreen
+[ 67409.243] (**) evdev: VirtualPS/2 VMware VMMouse: YAxisMapping: buttons 4 and 5
+[ 67409.243] (**) evdev: VirtualPS/2 VMware VMMouse: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+[ 67409.243] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input3/event1"
+[ 67409.243] (II) XINPUT: Adding extended input device "VirtualPS/2 VMware VMMouse" (type: TOUCHSCREEN, id 10)
+[ 67409.243] (II) evdev: VirtualPS/2 VMware VMMouse: initialized for absolute axes.
+[ 67409.244] (**) VirtualPS/2 VMware VMMouse: (accel) keeping acceleration scheme 1
+[ 67409.244] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration profile 0
+[ 67409.244] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration factor: 2.000
+[ 67409.244] (**) VirtualPS/2 VMware VMMouse: (accel) acceleration threshold: 4
+[ 67409.245] (II) config/udev: Adding input device VirtualPS/2 VMware VMMouse (/dev/input/mouse0)
+[ 67409.245] (II) No input driver specified, ignoring this device.
+[ 67409.245] (II) This device may have been added with another device file.
+[ 67409.246] (II) config/udev: Adding input device PC Speaker (/dev/input/event3)
+[ 67409.246] (II) No input driver specified, ignoring this device.
+[ 67409.246] (II) This device may have been added with another device file.
+[ 67410.266] (II) modeset(0): Disabling kernel dirty updates, not required.
